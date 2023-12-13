@@ -2,8 +2,8 @@ from PIL import Image
 
 import os
 
-downloadsFolder = "/Users/57310/Downloads/"
-carpeta_de_Img = "/Users/57310/Pictures/"
+downloadsFolder = "direccion de la carpeta a la que quieres ir a buscar los elementos"
+carpeta_de_Img = "direccion de la carpeta a la que quieres ir a buscar los elementos"
 
 
 if __name__ == "__main__":
@@ -17,11 +17,11 @@ if __name__ == "__main__":
             print(name+":"+extension)
 
         if extension in [".mp3"]:
-            musicFolder = "/Users/57310/Music"
+            musicFolder = "direccion de la carpeta a la que quieres ir a buscar los elementos"
             os.rename(downloadsFolder+ filename, musicFolder+ filename)
 
         if extension in [".pdf"]:
-            docsfolder = "/Users/57310/Documents/PDF"
+            docsfolder = "/direccion de la carpeta a la que quieres ir a buscar los elementos"
             os.rename(downloadsFolder + filename, docsfolder + filename)
 
 
