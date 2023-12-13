@@ -2,7 +2,7 @@ from PIL import Image
 
 import os
 
-downloadsFolder = "/Users/57310/Downloads/comprimidas/"
+downloadsFolder = "direccion de la carpeta a la que quieres ir a buscar los elementos"
 
 if __name__ == "__main__":
     for filename in os.listdir(downloadsFolder):
