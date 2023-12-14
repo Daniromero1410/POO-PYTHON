@@ -3,10 +3,10 @@ from email.message import EmailMessage
 import ssl
 import smtplib
 
-email_emisor = 'daniromero1410@gmail.com'
-email_contrasena = 'mmll dfca ojkz zavu'
+email_emisor = 'correo'
+email_contrasena = 'Tu contraseña de autenticacion en dos pasos'
 
-email_receptor = 'laurafernandamm22@gmail.com'
+email_receptor = 'correo'
 
 asunto = 'Revisa el correo'
 cuerpo = """
